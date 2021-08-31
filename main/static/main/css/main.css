@@ -1,0 +1,38 @@
+body {
+    background: #e6e6ff;
+    opacity: 0.9;
+}
+
+aside{
+    float: left;
+    background: #b8b894;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid white;
+}
+
+aside img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+aside .logo{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight-bold;
+    position: relative;
+    top: 5px;
+}
+
+aside h3{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+aside ul{list-style: none
+
+
+}
