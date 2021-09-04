@@ -3,7 +3,13 @@
 {% block content %}
    <div class="features">
        <h1>News</h1>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores autem cupiditate, eligendi et omnis quae reiciendis totam velit voluptate voluptates!</p>
-        <button class="btn btn-warning">About us page</button>
+<!-- show data from models -->
+       {% for el in news %}
+            <div class="alert alert-warning">
+                <h3>{{ el.title }}</h3>
+                <p>{{ el.anons }}</p>
+                <p>{{ el.date }}</p>
+            </div>
+       {% endfor %}
    </div>
 {% endblock %}

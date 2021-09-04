@@ -7,6 +7,7 @@ class Articles(models.Model):
     anons = models.CharField('Announcement', max_length=255)
     full_text = models.TextField('Article body')
     date = models.DateTimeField('Date')
+# show articles on page
 
     def __str__(self):
         return self.title
